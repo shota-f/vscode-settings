@@ -1,0 +1,47 @@
+{
+    "editor.formatOnSave": true,
+    "telemetry.enableTelemetry": false,
+    "editor.fontSize": 13,
+    "editor.wordWrap": "on",
+    // files
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    // dont need minimap
+    "editor.minimap.enabled": false,
+    // システムのclipboardにコピー
+    "vim.useSystemClipboard": true,
+    // ハイライトサーチ
+    "vim.hlsearch": true,
+    // 速度
+    "vim.easymotion": true,
+    // 諸々のctrlキーを使った操作が有効になる
+    "vim.useCtrlKeys": true,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<C-k>"
+            ],
+            "after": [
+                "<C-y>"
+            ]
+        },
+        {
+            "before": [
+                "<C-j>"
+            ],
+            "after": [
+                "<C-e>"
+            ]
+        },
+    ],
+    "vim.insertModeKeyBindingsNonRecursive": [
+        {}
+    ],
+    "workbench.colorTheme": "Monokai Dimmed",
+    "vs-kubernetes": {
+        "vs-kubernetes.minikube-path": "/Users/Fukku/.vs-kubernetes/tools/minikube/darwin-amd64/minikube",
+        "vs-kubernetes.helm-path": "/Users/Fukku/.vs-kubernetes/tools/helm/darwin-amd64/helm",
+        "vs-kubernetes.draft-path": "/Users/Fukku/.vs-kubernetes/tools/draft/darwin-amd64/draft"
+    },
+    "extensions.ignoreRecommendations": false,
+}
